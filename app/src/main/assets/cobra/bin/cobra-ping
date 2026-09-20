@@ -1,0 +1,3 @@
+#!/system/bin/sh
+printf 'CobraOSS ping helper: %s\n' "$*"
+exec /system/bin/ping "$@"

@@ -1,0 +1,7 @@
+#!/system/bin/sh
+if [ -z "$1" ]; then
+  echo 'usage: cobra-dns hostname'
+  exit 2
+fi
+/system/bin/getprop | grep -i dns
+/system/bin/ping -c 1 -W 2 "$1"

@@ -1,0 +1,4 @@
+#!/system/bin/sh
+printf 'CobraOSS environment ready\n'
+printf 'root=%s\n' "$COBRA_ROOT"
+printf 'path=%s\n' "$PATH"
